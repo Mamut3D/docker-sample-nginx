@@ -15,7 +15,7 @@ variables:
   containerRegistry: 'demorj.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
-  appName: rjdemo
+  appName: demorj
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
